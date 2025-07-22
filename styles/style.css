@@ -1,0 +1,70 @@
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  box-sizing: border-box;
+  max-width: 1220px;
+  margin: auto;
+}
+.btn-primary {
+  background-color: rgba(224, 44, 109, 1);
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 40px;
+}
+.dark-01 {
+  color: rgba(58, 58, 58, 1);
+}
+/* navbr style section */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.nav-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav-link-container ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.nav-link-container ul li a {
+  text-decoration: none;
+  padding: 0 15px;
+}
+#nav-icon {
+  padding: 0 15px;
+}
+
+/* Banner style Section */
+.banner-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+.banner-description {
+  align-content: center;
+}
+.banner-title {
+  font-weight: bold;
+  font-size: 40px;
+}
+.banner-info {
+  font-weight: 600;
+  margin: 15px 0;
+}
+.circle-design {
+  position: absolute;
+}
+.camera-design {
+  position: relative;
+  top: 20px;
+  left: 15px;
+}
